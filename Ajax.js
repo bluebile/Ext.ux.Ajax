@@ -27,7 +27,7 @@ Ext.define ('Ext.ux.Ajax', {
 	 * @private
 	 */
 	makeDeferred: function (url, extraParams, opts) {
-		var dfd = Ext.create ('Ext.ux.Deferred') ,
+		var dfd = Ext.create ('Ext.ux.Deferred').promise() ,
 			params = {
 				success: function () {
 					dfd.resolve.apply (dfd, arguments);
