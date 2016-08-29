@@ -1,6 +1,6 @@
 {
   "name": "Ext.ux.Ajax",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/wilk/Ext.ux.Ajax",
   "authors": [
     "Vincenzo (Wilk) Ferrari <wilk3ert@gmail.com>"
@@ -32,6 +32,6 @@
     "tests"
   ],
   "dependencies": {
-    "ext.ux.deferred": "1.0.0"
+    "ext.ux.deferred": "1.0.3"
   }
 }
